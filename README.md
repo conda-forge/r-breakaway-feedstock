@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=breakaway
 
 Package license: GPL-2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-breakaway-feedstock/blob/master/LICENSE.txt)
 
 Summary: Species richness estimation is an important problem in biodiversity analysis. This package provides methods for total species richness estimation (observed plus unobserved) and a method for modelling total diversity with covariates. breakaway() estimates total (observed plus unobserved) species richness. Microbial diversity datasets are characterized by a large number of rare species and a small number of highly abundant species. The class of models implemented by breakaway() is flexible enough to model both these features. breakaway_nof1() implements a similar procedure however does not require a singleton count. betta() provides a method for modelling total diversity with covariates in a way that accounts for its estimated nature and thus accounts for unobserved taxa, and betta_random() permits random effects modelling.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-breakaway` from the `conda-forge` channel can be achieved by addin
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-breakaway` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
