@@ -3,7 +3,7 @@ About r-breakaway
 
 Home: https://CRAN.R-project.org/package=breakaway
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-breakaway-feedstock/blob/master/LICENSE.txt)
 
